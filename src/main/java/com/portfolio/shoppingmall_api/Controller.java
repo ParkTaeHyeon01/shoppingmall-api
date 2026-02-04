@@ -21,7 +21,7 @@ public class Controller {
         return "Api Server is running";
     }
 
-    @GetMapping("/api/members-test")
+    @GetMapping("/api/test")
     public List<MemberTest> membersTest() {
         return mapper.findAll();
     }
